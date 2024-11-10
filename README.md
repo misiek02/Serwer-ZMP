@@ -6,12 +6,24 @@ Serwer do wizualizacji 3D
 ```sh
 sudo apt install libsoil-dev
 ```
+```sh
+sudo apt install libsoil1
+```
 
 #Domyślnie aplikacja kompiluje się z wykorzystaniem biblioteki Qt5.
 Wówczas należy zainstalowć
  - biblioteki Qt5
  - pakietu QGLViewer-qt5 (pakiety: libqglviewer2-qt5, libqglviewer-dev-qt5,
                           libqglviewer-headers)
+   ```sh
+   sudo apt install libqglviewer2-qt5
+   ```
+   ```sh
+   sudo apt install libqglviewer-dev-qt5
+   ```
+   ```sh
+   sudo apt install libqglviewer-headers
+   ```
 
 #W przypadku korzystania z biblioteki Qt6 należy w pliku Makefile
 odkomentować dwie pierwsze linie. Ponadto należy też mieć zainstalowane
