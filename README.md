@@ -4,7 +4,7 @@ Serwer do wizualizacji 3D
 #Skorzystanie z niniejszego oprogramowania wymaga zainstalowania
  - biblioteki SOIL (pakiety: libsoil-dev, libsoil1)
 '''sh
-
+sudo apt install libsoil-dev
 '''
 
 #Domyślnie aplikacja kompiluje się z wykorzystaniem biblioteki Qt5.
