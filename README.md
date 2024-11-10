@@ -32,12 +32,6 @@ biblioteki:
  - pakietu QGLViewer-qt6 (pakiety: libqglviewer2-qt6, libqglviewer-dev-qt6,
                           libqglviewer-headers)
    ```sh
-   sudo apt install libqglviewer2-qt6
-   ```
-   ```sh
-   sudo apt install libqglviewer-dev-qt6
-   ```
-   ```sh
    sudo apt install libqglviewer-headers
    ```
 
@@ -45,9 +39,9 @@ biblioteki:
 #Nazwy i wersje pakietów mogą się różnić w zależności od dystrybucji
 Linuksa. Niezmienne zazwyczaj pozostają nazwy typu: libqglviewer-dev-qt5
 i libsoil-dev.
-Niestety werjsa libqglviewer-qt6 nie jest w pakietach dystrybucyjnych.
+<span style="color:red">Niestety werjsa libqglviewer-qt6 nie jest w pakietach dystrybucyjnych.
 Wymaga ona pobrania źródeł z https://github.com/GillesDebunne/libQGLViewer,
-samodzielnej kompilacji i instalacji.
+samodzielnej kompilacji i instalacji.</span>
 
 #Chcąc zmienić tło i podać inny plik, należy zmodyfikować
 odpowiednio zawartość pliku inc/gsv-BackgroundImage.h
