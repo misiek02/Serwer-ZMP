@@ -31,7 +31,15 @@ biblioteki:
  - biblioteki Qt6
  - pakietu QGLViewer-qt6 (pakiety: libqglviewer2-qt6, libqglviewer-dev-qt6,
                           libqglviewer-headers)
-
+   ```sh
+   sudo apt install libqglviewer2-qt6
+   ```
+   ```sh
+   sudo apt install libqglviewer-dev-qt6
+   ```
+   ```sh
+   sudo apt install libqglviewer-headers
+   ```
 
 
 #Nazwy i wersje pakietów mogą się różnić w zależności od dystrybucji
