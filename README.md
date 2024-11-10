@@ -39,9 +39,12 @@ biblioteki:
 #Nazwy i wersje pakietów mogą się różnić w zależności od dystrybucji
 Linuksa. Niezmienne zazwyczaj pozostają nazwy typu: libqglviewer-dev-qt5
 i libsoil-dev.
-<span style="color:red">Niestety werjsa libqglviewer-qt6 nie jest w pakietach dystrybucyjnych.
-Wymaga ona pobrania źródeł z https://github.com/GillesDebunne/libQGLViewer,
-samodzielnej kompilacji i instalacji.</span>
+Niestety werjsa libqglviewer-qt6 nie jest w pakietach dystrybucyjnych.
+Wymaga ona pobrania źródeł z:
+```sh
+git clone https://github.com/GillesDebunne/libQGLViewer
+```
+samodzielnej kompilacji i instalacji.
 
 #Chcąc zmienić tło i podać inny plik, należy zmodyfikować
 odpowiednio zawartość pliku inc/gsv-BackgroundImage.h
